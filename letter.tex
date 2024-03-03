@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}    %sensible page margins
+\usepackage[ngerman]{babel}                         %german date formatting
+\usepackage[utf8]{inputenc}                         %german umlauts
+\usepackage{cmbright}                               %MS word-like font.
+\usepackage{hyperref}
+
+
+%% ADAPT these parameters to suit your needs
+\newcommand{\recipientname}{Recipient Name}
+\newcommand{\recipientstreet}{Recipient Street Address}
+\newcommand{\recipientpostalcode}{Recipient Postal Code}
+\newcommand{\recipientcity}{Recipient City/Town/Village}
+
+
+\newcommand{\yourname}{Your Name}
+\newcommand{\yourstreet}{Your Street Address}
+\newcommand{\yourpostalcode}{Your Postal Code}
+\newcommand{\yourcity}{Your City}
+\newcommand{\yourphone}{Your Phone}
+\newcommand{\youremail}{Your Email Address}
+\newcommand{\yourextrainfo}{Your Optional\\Extra Info}
+
+
+
+\begin{document}
+% headline and address
+{
+{
+\footnotesize
+\hfill  \noindent
+\begin{minipage}[t]{0.33\textwidth}
+\yourname\\
+\yourstreet\\
+\yourpostalcode~\yourcity\\
+Tel: \yourphone\\
+Email:  \youremail\\
+\yourextrainfo
+
+\end{minipage}
+\vspace{1cm}
+
+
+}
+
+
+\noindent \recipientname \hfill \today\\
+\recipientstreet\\
+\recipientpostalcode~\recipientcity
+}\\
+\vspace{1cm}
+
+
+%% EXPRESS THE INTENT OF THE LETTER HERE
+{
+\noindent \textbf{What This Message Is About}
+}\\
+%%\\ EXPRESS THE INTENT OF THE LETTER HERE
+
+%% ADD THE BODY OF THE LETTER HERE
+{
+\noindent Sehr geehrte Damen und Herren,\\
+
+\noindent bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+}
+%% \\ ADD THE BODY OF THE LETTER HERE
+{
+
+%% CLOSING GREETINGS
+\vspace{3cm}
+{
+\noindent Mit freundlichen Grüßen\\
+}
+\vspace{1cm}\\ % Optionally use \includegraphics to place a signature here.
+\noindent \yourname
+%% \\ CLOSING GREETINGS.
+
+
+}
+
+\end{document}
